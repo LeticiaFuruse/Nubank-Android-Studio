@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="olho" app:showAsAction="ifRoom" android:icon="@drawable/olho" />
+    <item android:title="interrogacao" app:showAsAction="ifRoom" android:icon="@drawable/interrogacao"/>
+    <item android:title="sino_alerta" app:showAsAction="ifRoom" android:icon="@drawable/sino_alerta"/>
+
+</menu>

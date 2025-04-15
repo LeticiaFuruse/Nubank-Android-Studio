@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".valorTransferencia">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Qual é o valor da transferencia?"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:text="Saldo disponivel em conta R$ 69.000,00"
+        android:textColor="#808080"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:hint="R$ 0,00" />
+
+    <Button
+        android:layout_width="65sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="480dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#D3D3D3"
+        app:cornerRadius="100dp"
+        app:icon="@drawable/seta_right"
+        app:iconTint="#000000" />
+
+
+</LinearLayout>
