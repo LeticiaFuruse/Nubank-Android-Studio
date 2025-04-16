@@ -26,32 +26,23 @@ Este projeto é um clone de algumas funcionalidades do app Nubank, desenvolvido 
 
 ## 🖼️ Capturas de Tela
 
-### Página inicial
-![pagina1](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/1-tela%20incial.png)
+<p align="center">
+  <img src="https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/1-tela%20incial.png" width="200"/>
+  <img src="https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/2-area%20pix.png" width="200"/>
+  <img src="https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/3-valor%20da%20transferencia.png" width="200"/>
+</p>
 
-### Área Pix
-![Pix](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/2-area%20pix.png)
+<p align="center">
+  <img src="https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/4-para%20quem%20transferir.png" width="200"/>
+  <img src="https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/5-transferindo.png" width="200"/>
+  <img src="https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/6-como%20gostaria.png" width="200"/>
+</p>
 
-### Valor da Transferência
-![Transferência](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/3-valor%20da%20transferencia.png)
-
-### Seleção de Contato
-![Contato](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/4-para%20quem%20transferir.png)
-
-### Confirmação de Transferência
-![Confirmação](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/5-transferindo.png)
-
-### Transferir
-![Transferir](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/6-como%20gostaria.png)
-
-### Revisar Detalhes
-![Revisar Detalhes](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/7-revise%20os%20detalhes.png)
-
-### Confirmação de senha
-![Confirmação de senha](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/8-digite%20sua%20senha.png)
-
-### Transferência realizada
-![Transferência realizada](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/9-transferencia%20realizada.png)
+<p align="center">
+  <img src="https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/7-revise%20os%20detalhes.png" width="200"/>
+  <img src="https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/8-digite%20sua%20senha.png" width="200"/>
+  <img src="https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/9-transferencia%20realizada.png" width="200"/>
+</p>
 
 ## 🎯 Objetivo do Projeto
 
