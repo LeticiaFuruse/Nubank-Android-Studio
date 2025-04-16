@@ -27,19 +27,19 @@ Este projeto é um clone de algumas funcionalidades do app Nubank, desenvolvido 
 ## 🖼️ Capturas de Tela
 
 ### Página inicial
-![pagina1](./assets/)
+![pagina1](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/1-tela%20incial.png)
 
 ### Área Pix
-![Pix](./assets/pix.png)
+![Pix](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/2-area%20pix.png)
 
 ### Valor da Transferência
-![Transferência](./assets/valor-transferencia.png)
+![Transferência](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/3-valor%20da%20transferencia.png)
 
 ### Seleção de Contato
-![Contato](./assets/contato-transferencia.png)
+![Contato](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/4-para%20quem%20transferir.png)
 
 ### Confirmação de Transferência
-![Confirmação](./assets/confirmacao.png)
+![Confirmação](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/5-transferindo.png)
 
 ## 🎯 Objetivo do Projeto
 
