@@ -30,10 +30,10 @@
         android:layout_marginTop="10dp"
         android:text="Encontre um contato na sua lista ou inicie  uma nova tranferencia"
         android:textColor="#505050"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <EditText
-        android:layout_width="363dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
@@ -58,6 +58,7 @@
         android:layout_gravity="center"
         >
         <Button
+            android:id="@+id/btnTransferirParaQuem"
             android:layout_width="65sp"
             android:layout_height="75sp"
             android:layout_margin="10dp"

@@ -65,6 +65,7 @@
         />
 
     <Button
+        android:id="@+id/btnVoltarParaPrincipal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cornerRadius="100dp"
