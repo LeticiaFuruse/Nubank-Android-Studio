@@ -58,7 +58,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 android:text="Saldo disponivel de R$ 69.000,00"
                 />
 
@@ -97,7 +97,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 android:text="Você tem um limite de R$32.400,00 para usar como pix no cartão de crédito este mês"
                 />
         </LinearLayout>
