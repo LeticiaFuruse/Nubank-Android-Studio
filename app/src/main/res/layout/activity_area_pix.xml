@@ -9,6 +9,7 @@
     android:orientation="vertical"
     tools:context=".areaPix">
 
+<!--    Area pix -->
     <TextView
         android:layout_width="206dp"
         android:layout_height="wrap_content"
@@ -19,7 +20,7 @@
         android:layout_marginLeft="20dp"
         android:text="Area Pix"
         />
-
+<!--Texto abaixo -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,55 +30,128 @@
         android:text="Envie e receba pagamentos a qualquer hora e dia da semana, sem pagar nada por iso "
         android:textColor="#808080"
         android:textSize="20sp" />
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    >
-    <Button
-        android:id="@+id/btnTransferir"
-        android:layout_width="65sp"
-        android:layout_height="75sp"
-        app:icon="@drawable/transferir"
-        android:layout_margin="10dp"
-        app:cornerRadius="100dp"
-        app:iconTint="#000000"
-        android:backgroundTint="#D3D3D3"
-        />
 
-    <Button
-        android:layout_width="65sp"
-        android:layout_height="75sp"
-        app:icon="@drawable/card"
-        android:layout_margin="10dp"
-        app:cornerRadius="100dp"
-        app:iconTint="#000000"
-        android:backgroundTint="#D3D3D3"
-
-        />
-    <Button
-        android:layout_width="65sp"
-        android:layout_height="75sp"
-        app:icon="@drawable/card"
-        android:layout_margin="10dp"
-        app:cornerRadius="100dp"
-        app:iconTint="#000000"
-        android:backgroundTint="#D3D3D3"
-
-        />
-    </LinearLayout>
-    <TextView
+<!--    Linear dos primerios botoes-->
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Transferir   Programar   Ler QR corde"
-        android:layout_gravity="center"
-        />
+        android:layout_height="124dp"
+        android:layout_gravity="center">
+        <!-- Linear do botao Transferir-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
 
+            <!--        Botao transferir-->
+            <Button
+                android:id="@+id/btnTransferir"
+                android:layout_width="65sp"
+                android:layout_height="75sp"
+                android:layout_margin="10dp"
+                android:backgroundTint="#D3D3D3"
+                app:cornerRadius="100dp"
+                app:icon="@drawable/transferir"
+                app:iconTint="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transferir"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+        <!-- Linear od botão Programar-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <!--        Botao Programar-->
+            <Button
+                android:layout_width="65sp"
+                android:layout_height="75sp"
+                android:layout_margin="10dp"
+                android:backgroundTint="#D3D3D3"
+                app:cornerRadius="100dp"
+                app:icon="@drawable/programar"
+                app:iconTint="#000000"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Programar"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+        <!-- Linear do btn Ler qr code-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+        <!--        Botao ler qr code-->
+            <Button
+                android:layout_width="65sp"
+                android:layout_height="75sp"
+                android:layout_margin="10dp"
+                android:backgroundTint="#D3D3D3"
+                app:cornerRadius="100dp"
+                app:icon="@drawable/card"
+                app:iconTint="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ler Qr Code"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+<!--Linear da segunda fileira de botoes-->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         >
+        <!-- Botao pix copia-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_width="65sp"
+                android:layout_height="75sp"
+                app:icon="@drawable/card"
+                android:layout_margin="10dp"
+                app:cornerRadius="100dp"
+                app:iconTint="#000000"
+                android:backgroundTint="#D3D3D3"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pix copia"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+
+        <!--Botao cobrar-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
         <Button
             android:layout_width="65sp"
             android:layout_height="75sp"
@@ -86,7 +160,24 @@
             app:cornerRadius="100dp"
             app:iconTint="#000000"
             android:backgroundTint="#D3D3D3"
+
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cobrar"
+            android:layout_gravity="center"
+
+            />
+        </LinearLayout>
+
+        <!--Botao depositar-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
 
         <Button
             android:layout_width="65sp"
@@ -96,25 +187,18 @@
             app:cornerRadius="100dp"
             app:iconTint="#000000"
             android:backgroundTint="#D3D3D3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Depoositar"
+            android:layout_gravity="center"
 
-            />
-        <Button
-            android:layout_width="65sp"
-            android:layout_height="75sp"
-            app:icon="@drawable/card"
-            android:layout_margin="10dp"
-            app:cornerRadius="100dp"
-            app:iconTint="#000000"
-            android:backgroundTint="#D3D3D3"
-            />
+        />
+        </LinearLayout>
 
     </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pix copia         Cobrar         Depositar"
-        android:layout_gravity="center"
-        />
+
 
 
     <TextView
