@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:text="Saldo disponivel em conta R$ 69.000,00"
         android:textColor="#808080"
         android:textSize="20sp" />
@@ -34,16 +35,24 @@
         android:textSize="25dp"
         android:hint="R$ 0,00" />
 
-    <Button
-        android:layout_width="65sp"
-        android:layout_height="75sp"
-        android:layout_marginTop="480dp"
-        android:layout_marginRight="15dp"
-        android:layout_gravity="right"
-        android:backgroundTint="#D3D3D3"
-        app:cornerRadius="100dp"
-        app:icon="@drawable/seta_right"
-        app:iconTint="#000000" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="end|bottom"
+        >
 
+        <Button
+            android:id="@+id/btnSeguinte"
+            android:layout_width="65sp"
+            android:layout_height="75sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#D3D3D3"
+            app:cornerRadius="100dp"
+            app:icon="@drawable/seta_right"
+            app:iconTint="#000000" />
+
+    </LinearLayout>
 </LinearLayout>

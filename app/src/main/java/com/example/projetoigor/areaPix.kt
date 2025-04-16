@@ -1,6 +1,8 @@
 package com.example.projetoigor
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +13,11 @@ class areaPix : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_area_pix)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val btnProximaTela : Button = findViewById(R.id.btnTransferir)
+        btnProximaTela.setOnClickListener{
+            val intent = Intent(this,valorTransferencia::class.java)
+            startActivity(intent)
         }
     }
 }

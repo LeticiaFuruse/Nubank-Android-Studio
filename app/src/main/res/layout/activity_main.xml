@@ -35,6 +35,7 @@
 
        >
    <Button
+       android:id="@+id/btnAreaPix"
        android:layout_width="65sp"
        android:layout_height="75sp"
        android:layout_margin="10dp"
