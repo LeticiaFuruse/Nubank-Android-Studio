@@ -75,7 +75,7 @@
                 android:layout_margin="10dp"
                 android:backgroundTint="#D3D3D3"
                 app:cornerRadius="100dp"
-                app:icon="@drawable/programar"
+                app:icon="@drawable/programar2"
                 app:iconTint="#000000"
 
                 />
@@ -101,7 +101,7 @@
                 android:layout_margin="10dp"
                 android:backgroundTint="#D3D3D3"
                 app:cornerRadius="100dp"
-                app:icon="@drawable/card"
+                app:icon="@drawable/qrcode"
                 app:iconTint="#000000"
                 />
             <TextView
@@ -130,7 +130,7 @@
             <Button
                 android:layout_width="65sp"
                 android:layout_height="75sp"
-                app:icon="@drawable/card"
+                app:icon="@drawable/pix"
                 android:layout_margin="10dp"
                 app:cornerRadius="100dp"
                 app:iconTint="#000000"
@@ -155,7 +155,7 @@
         <Button
             android:layout_width="65sp"
             android:layout_height="75sp"
-            app:icon="@drawable/card"
+            app:icon="@drawable/cobrar"
             android:layout_margin="10dp"
             app:cornerRadius="100dp"
             app:iconTint="#000000"
@@ -182,7 +182,7 @@
         <Button
             android:layout_width="65sp"
             android:layout_height="75sp"
-            app:icon="@drawable/card"
+            app:icon="@drawable/depositar"
             android:layout_margin="10dp"
             app:cornerRadius="100dp"
             app:iconTint="#000000"
@@ -191,7 +191,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Depoositar"
+            android:text="Depositar"
             android:layout_gravity="center"
 
         />
