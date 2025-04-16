@@ -35,7 +35,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="Encontre um contato na sua lista ou inicie  uma nova tranferencia"
+            android:text="Encontre um contato na sua lista ou inicie  uma nova transferência"
             android:textColor="#505050"
             android:textSize="15sp" />
 

@@ -15,7 +15,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:text="Como você gostaria de tranferir R$ 689,00"
+        android:text="Como você gostaria de transferir R$ 689,00"
         android:textSize="25sp"
         android:textStyle="bold"
         />
@@ -115,6 +115,18 @@
             android:layout_marginTop="50dp"
             android:textColor="#ffff"
             android:backgroundTint="#9400d3"
+            />
+        <Button
+            android:id="@+id/btnSaldoCredito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Continuar com o saldo do crédito"
+            android:layout_marginTop="50dp"
+            android:textColor="#ffff"
+            android:backgroundTint="#000"
             />
 
 </LinearLayout>

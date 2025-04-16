@@ -18,7 +18,7 @@
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:text="Area Pix"
+        android:text="Área Pix"
         />
 <!--Texto abaixo -->
     <TextView
@@ -27,7 +27,7 @@
         android:layout_gravity="left"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"
-        android:text="Envie e receba pagamentos a qualquer hora e dia da semana, sem pagar nada por iso "
+        android:text="Envie e receba pagamentos a qualquer hora e dia da semana, sem pagar nada por isso "
         android:textColor="#808080"
         android:textSize="20sp" />
 

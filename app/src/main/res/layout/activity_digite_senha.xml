@@ -30,38 +30,50 @@
         >
 
         <EditText
+            android:id="@+id/editText1"
             android:layout_width="89dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="#d3d3d3"
             android:inputType="textPassword"
             android:maxLength="1"
+            android:gravity="center"
+            android:textAlignment="center"
             android:textSize="40dp" />
 
         <EditText
+            android:id="@+id/editText2"
             android:layout_width="89dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="#d3d3d3"
             android:inputType="textPassword"
+            android:gravity="center"
+            android:textAlignment="center"
             android:maxLength="1"
             android:textSize="40dp" />
         <EditText
+            android:id="@+id/editText3"
             android:layout_width="89dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textSize="40dp"
             android:inputType="textPassword"
             android:backgroundTint="#d3d3d3"
+            android:gravity="center"
+            android:textAlignment="center"
             android:maxLength="1"
             />
         <EditText
+            android:id="@+id/editText4"
             android:layout_width="89dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textSize="40dp"
             android:inputType="textPassword"
             android:backgroundTint="#d3d3d3"
+            android:gravity="center"
+            android:textAlignment="center"
             android:maxLength="1"
             />
     </LinearLayout>
