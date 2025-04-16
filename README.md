@@ -41,6 +41,18 @@ Este projeto é um clone de algumas funcionalidades do app Nubank, desenvolvido 
 ### Confirmação de Transferência
 ![Confirmação](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/5-transferindo.png)
 
+### Transferir
+![Transferir](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/6-como%20gostaria.png)
+
+### Revisar Detalhes
+![Revisar Detalhes](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/7-revise%20os%20detalhes.png)
+
+### Confirmação de senha
+![Confirmação de senha](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/8-digite%20sua%20senha.png)
+
+### Transferência realizada
+![Transferência realizada](https://github.com/LeticiaFuruse/Nubank-Android-Studio/blob/main/imagens/9-transferencia%20realizada.png)
+
 ## 🎯 Objetivo do Projeto
 
 Este projeto foi feito com fins educacionais e para praticar o desenvolvimento mobile com foco em UI/UX, buscando replicar a experiência de um aplicativo bancário real.
